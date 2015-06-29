@@ -1,0 +1,609 @@
+/*Desarrollado Por: Kevin Linares*/
+@media (max-width:1100px) {
+    .tituloNav_user h1 {
+        font-size:17px;
+        padding-left:5px;
+        padding-top:10px
+    }
+    #misCotizaciones, #misSolicitudes, #misRequerimientos, #misPolizas, #misPagos, #cambiarContraseña, #reportesSiniestros {
+        width:100%;
+        padding:0px 15px;
+        margin-bottom:50px
+    }
+  
+	#formSlider{
+		width:31%;
+		height:99%;
+		top:0.5%;
+		right:5%
+	}
+	.tituloFormSlider h1{font-size:23pt;}
+	
+	.botonFormSlider{padding:5px 8px; padding-right:40px;}
+}
+@media (max-width:1024px) {
+	#texto1 p:nth-of-type(1) {top:55%;left:12%;}
+	#texto1 span:nth-of-type(1){height:10px;width:10px; background:rgba(255,255,255,1); display:block; top:57%;left:10%;}
+	#texto1 p:nth-of-type(2) {top:64%;left:10%;}	
+	#texto1 span:nth-of-type(2){height:10px;width:10px; background:rgba(255,255,255,1); display:block; top:66%;left:8%;}
+	
+	#texto2 p:nth-of-type(1) {top:65%;left:22%;}
+	#texto2 span:nth-of-type(1){height:10px;width:10px; background:rgba(255,255,255,1); display:block; top:67%;left:20%;}
+	#texto2 p:nth-of-type(2) {top:72%;left:20%;}
+	#texto2 span:nth-of-type(2){height:10px;width:10px; background:rgba(255,255,255,1); display:block; top:74%;left:18%;}
+	
+	#texto3 p:nth-of-type(1) {top:55%;left:26%;}
+	#texto3 span:nth-of-type(1){height:10px;width:10px; background:#000; display:block; top:57%;left:24%;}
+	#texto3 p:nth-of-type(2) {top:62%;left:24%;}
+	#texto3 span:nth-of-type(2){height:10px;width:10px; background:#000; display:block; top:64%;left:22%;}
+	#texto3 p:nth-of-type(3) {top:76%;left:27%;}
+	#texto3 span:nth-of-type(3){height:10px;width:10px; background:#000; display:block; top:78%;left:25%;}
+}
+@media (max-width:970px) {.nav_ocultar{display:none}}
+@media (max-width:970px) {
+	#texto2 h1{
+		top:35%;
+		left:25%;
+		font-size:25pt; 
+		color:#FFF
+	}
+	#texto2 p{
+		font-size:13pt;
+	}
+	#texto1 span:nth-of-type(1){height:7px;width:7px;}
+	#texto1 span:nth-of-type(2){height:7px;width:7px;}
+	#texto1 span:nth-of-type(3){height:7px;width:7px;}
+	#texto2 p:nth-of-type(1) {top:58%;left:31%;}
+	#texto2 span:nth-of-type(1){height:10px;width:10px; background:rgba(255,255,255,1); display:block; top:60%;left:28%;}
+	#texto2 p:nth-of-type(2) {top:70%;left:29%;}
+	#texto2 span:nth-of-type(2){height:10px;width:10px; background:rgba(255,255,255,1); display:block; top:70%;left:26%;}
+	
+	
+	
+	#texto3 h1{
+		top:35%;
+		left:30%;
+		font-size:25pt; 
+	}
+	#texto3 p{
+		font-size:13pt;
+	}
+	#texto3 p:nth-of-type(1) {top:55%;left:36%;}
+	#texto3 span:nth-of-type(1){height:10px;width:10px; background:#000; display:block; top:57%;left:34%;}
+	#texto3 p:nth-of-type(2) {top:64%;left:34%;}
+	#texto3 span:nth-of-type(2){height:10px;width:10px; background:#000; display:block; top:66%;left:32%;}
+	#texto3 p:nth-of-type(3) {top:79%;left:32%;}
+	#texto3 span:nth-of-type(3){height:10px;width:10px; background:#000; display:block; top:81%;left:30%;}
+	
+	
+	#formSlider{display:none}
+    .cajaAseguradora div {
+        width:74%
+    }
+    .cajaAseguradora figure {
+        width:25%;
+        margin-top:80px
+    }
+    .widget {
+        width:22%
+    }
+    .widgetContact:nth-child(2) {
+        padding-left:40px
+    }
+    .lapto {
+        padding-left:10px;
+        padding-right:10px
+    }
+    .cajaFooter {
+        width:44%;
+        margin-top:15px;
+        margin-left:1%;
+        margin-right:1%
+    }
+    .menuFooter {
+        width:49%
+    }
+    .menuFooter2 {
+        width:50%
+    }
+    .cajaFooter2 {
+        width:50%;
+        margin-left:0;
+        margin-right:0
+    }
+    .widgetContact {
+        width:40%;
+        margin-bottom:20px
+    }
+}
+@media (max-width:960px) {
+	#formSlider{
+		width:33%;
+		height:100%;
+		top:0%;
+		right:5%
+	}
+    .envolturaContenidoUser {
+        margin:0px
+    }
+    #nav_user, .envolturaContenidoUser {
+        width:100%;
+        float:none;
+        display:block
+    }
+    #nav_user .cajaNav_user {
+        display:inline-block;
+        width:24%;
+        vertical-align:top
+    }
+    .cajaNav_user >ul {
+        display:none
+    }
+}
+@media (max-width:836px) {
+    .envolturaCajasHeader, #nav_bar {
+        display:none
+    }
+    #logo {
+        float:none;
+        width:100%;
+        text-align:center;
+        padding:20px;
+        cursor:pointer
+    }
+    .botonMenu {
+        display:block;
+        top:25px;
+        right:10%
+    }
+    #nav_down li {
+        display:none
+    }
+    #nav_down li:nth-child(2) {
+        display:block !important
+    }
+    .envolturaQuienes {
+        width:95%
+    }
+    #nav_down li a {
+        padding:10px 3px;
+        width:100%
+    }
+    #publicaciones {
+        width:35%
+    }
+    #post {
+        width:65%
+    }
+    #redes {
+        width:100%;
+        text-align:center;
+        margin:0px;
+        margin-top:20px;
+        padding:0px
+    }
+    .redesCompartir {
+        width:43%;
+        display:inline-block;
+        vertical-align:top;
+        margin:0px
+    }
+    .facebook {
+        width:52%
+    }
+    .seguirTW {
+        display:none
+    }
+    .novedades {
+        padding:0px
+    }
+    .formContacto {
+        width:80%
+    }
+    .widget {
+        width:40%;
+        margin-bottom:20px
+    }
+    .public {
+        width:100%
+    }
+    .video {
+        width:50%
+    }
+    .listaVideos {
+        width:49%
+    }
+    .public {
+        display:none
+    }
+    #porqueAsegurame {
+        display:none
+    }
+}
+@media (max-width:768px) {
+	#texto1 h1{
+		top:10%;
+		left:5%;
+		font-size:25pt; 
+		font-weight:bold; 
+		color:#FFF
+	}
+	#texto1 h2{
+		top:34%;
+		left:13%;
+		z-index:9999;
+		color:#F2F2F2;
+		font-size:25pt;
+		font-weight:300
+	}
+	#texto1 p{
+		font-size:11pt;
+	}
+	#texto1 span:nth-of-type(1){height:6px;width:6px;}
+	#texto1 span:nth-of-type(2){height:6px;width:6px;}
+	#texto1 span:nth-of-type(3){height:6px;width:6px;}
+	#texto2 h1{
+		top:25%;
+		left:25%;
+		font-size:20pt; 
+		font-weight:bold; 
+		color:#FFF
+	}
+	#texto2 p{
+		font-size:10pt;
+	}
+	#texto2 p:nth-of-type(1) {top:58%;left:31%;}
+	#texto2 span:nth-of-type(1){height:6px;width:6px; background:rgba(255,255,255,1); display:block; top:60%;left:28%;}
+	#texto2 p:nth-of-type(2) {top:70%;left:29%;}
+	#texto2 span:nth-of-type(2){height:6px;width:6px; background:rgba(255,255,255,1); display:block; top:70%;left:26%;}
+	
+	
+	#texto3 h1{
+		top:25%;
+		left:30%;
+		font-size:20pt; 
+	}
+	#texto3 p{
+		font-size:10pt;
+	}
+	#texto3 p:nth-of-type(1) {top:50%;left:36%;}
+	#texto3 span:nth-of-type(1){height:6px;width:6px; background:#000; display:block; top:52%;left:34%;}
+	#texto3 p:nth-of-type(2) {top:59%;left:34%;}
+	#texto3 span:nth-of-type(2){height:6px;width:6px; background:#000; display:block; top:62%;left:32%;}
+	#texto3 p:nth-of-type(3) {top:78%;left:32%;}
+	#texto3 span:nth-of-type(3){height:6px;width:6px; background:#000; display:block; top:82;left:30%;}
+	
+	
+    .menu_internoMax, #quienesSomos {
+        display:none
+    }
+    .menu_interno {
+        display:block;
+        box-shadow:0px 0px 10px #ccc
+    }
+    .menu_interno li, .menu_interno li a {
+        display:block;
+        width:100%
+    }
+    .formContacto {
+        width:90%
+    }
+    .videos {
+        padding:10px;
+        padding-top:25px
+    }
+    .tituloComo1, .tituloComo2, .tituloComo3 {
+        position:static;
+        width:100%;
+        text-align:center;
+        transform:rotate(0deg);
+        -webkit-transform:rotate(0deg);
+        -moz-transform:rotate(0deg);
+        -o-transform:rotate(0deg);
+        margin:0px
+    }
+    .cajaComo1 {
+        border:none;
+        margin-left:0px
+    }
+    .menuFooter {
+        width:100%
+    }
+    .menuFooter2 {
+        width:100%;
+        border:none;
+        margin-top:20px;
+        border-top:1px solid #ccc;
+        padding:20px;
+        text-align:center
+    }
+    .cajaFooter {
+        width:22%;
+        margin-top:15px;
+        margin-left:1%;
+        margin-right:1%
+    }
+    #datosAutomovil {
+        display:none
+    }
+    .temas {
+        display:none
+    }
+    .preguntas {
+        width:100%;
+        padding:0;
+        background:#FFF
+    }
+}
+@media (max-width:600px) {
+	#texto1 h1{
+	top:16%;
+	left:5%;
+	font-size:20pt; 
+	font-weight:bold; 
+	color:#FFF
+	}
+	#texto1 h2{
+		top:39%;
+		left:13%;
+		z-index:9999;
+		color:#F2F2F2;
+		font-size:20pt;
+		font-weight:300
+	}
+	#texto1 p{
+		position:absolute;
+		z-index:99999;
+		color:#FFF;
+		font-size:9pt;
+		font-weight:300
+	}
+	#texto1 p:nth-of-type(1) {top:67%;left:9%;}
+	#texto1 span:nth-of-type(1){height:6px;width:6px; background:rgba(255,255,255,1); display:block; top:70%;left:7%;}
+	#texto1 p:nth-of-type(2) {top:77%;left:7%;}
+	#texto1 span:nth-of-type(2){height:6px;width:6px; background:rgba(255,255,255,1); display:block; top:79%;left:5%;}
+	#texto1 p:nth-of-type(3) {top:86%;left:5%;}
+	#texto1 span:nth-of-type(3){height:6px;width:6px; background:rgba(255,255,255,1); display:block; top:87%;left:3%;}
+	#texto2 h1{
+		top:25%;
+		left:25%;
+		font-size:20pt; 
+		font-weight:bold; 
+		color:#FFF
+	}
+	#texto2 p{
+		font-size:10pt;
+	}
+	#texto2 p:nth-of-type(1) {top:58%;left:31%;}
+	#texto2 span:nth-of-type(1){height:6px;width:6px; background:rgba(255,255,255,1); display:block; top:62%;left:29%;}
+	#texto2 p:nth-of-type(2) {top:70%;left:29%;}
+	#texto2 span:nth-of-type(2){height:6px;width:6px; background:rgba(255,255,255,1); display:block; top:72%;left:27%;}
+	.tituloNav_user figure {
+        display:none
+    }
+    .lapto {
+        padding:10px
+    }
+    .lapto .imgLapto {
+        width:100%;
+        padding:20px
+    }
+    .lapto .figurasHome {
+        width:100%
+    }
+    .cajaAseguradora div {
+        width:100%
+    }
+    .cajaAseguradora figure {
+        width:50%;
+        float:none;
+        display:block;
+        margin:0 auto
+    }
+    .cajaAseguradora div p {
+        margin-top:20px
+    }
+    .cajaComo {
+        width:49%
+    }
+    .widget {
+        width:46%
+    }
+    .widgetContact {
+        width:40%
+    }
+    .formContacto {
+        width:100%
+    }
+    .preguntas ul {
+        margin-left:25px
+    }
+    .preguntas li {
+        list-style:url(../img/icon_preguntas_peq.png)
+    }
+    .preguntas li a {
+        font-size:16px
+    }
+    .preguntas li li {
+        list-style:none;
+        margin-left:0px;
+        margin-top:-10px
+    }
+    .widgetContact {
+        width:90%;
+        border-bottom:1px solid #ccc;
+        padding-bottom:20px;
+        margin:0px
+    }
+    .widgetContact:nth-child(2) {
+        padding-left:0px
+    }
+    .aseguradoraH1 {
+        font-size:26px;
+        font-weight:400;
+        margin-top:0px;
+        margin-bottom:0px
+    }
+    #logo {
+        text-align:left;
+        padding-left:7%
+    }
+    .preguntas {
+        width:100%;
+        padding:0;
+        background:#FFF
+    }
+}
+@media (max-width:480px) {
+    .widget {
+        width:90%
+    }
+    .cajaComo {
+        width:90%
+    }
+    .video {
+        width:90%;
+        margin-top:10px
+    }
+    .listaVideos {
+        width:90%
+    }
+    .cajaQuienes:nth-child(1) {
+        border:0px
+    }
+    .cajaQuienes {
+        width:100%;
+        margin-top:10px;
+        padding-bottom:10px
+    }
+    .temas {
+        width:25%
+    }
+    .preguntas {
+        padding:10px;
+        width:75%
+    }
+    .article {
+        padding:10px;
+        width:95%;
+        margin:0 auto
+    }
+    #post {
+        width:100%
+    }
+    #redes {
+        width:100%;
+        text-align:center;
+        margin:0px;
+        margin-top:20px;
+        padding:0px
+    }
+    .redesCompartir {
+        width:50%;
+        display:inline-block;
+        vertical-align:top;
+        margin:0px;
+        margin-bottom:20px;
+        padding-top:0px
+    }
+    .facebook {
+        width:100%
+    }
+    #publicaciones {
+        width:100%;
+        text-align:center
+    }
+    .cajaPublicacion {
+        width:48%;
+        display:inline-block;
+        margin-top:20px;
+        border:
+    }
+    #publicaciones h1 {
+        margin-top:20px
+    }
+    #post h1 {
+        border:none;
+        padding:0px
+    }
+    .botonMenu {
+        display:block;
+        right:5%
+    }
+    #logo {
+        padding-left:5%
+    }
+    .slider-nav.next {
+        background:none
+    }
+    .formContacto {
+        width:100%;
+        padding:0
+    }
+    .slider-nav.prev {
+        background:none
+    }
+    .preguntas {
+        width:100%;
+        padding:0;
+        background:#FFF
+    }
+}
+@media (max-width:479px) {
+	.slider,.banner{
+		display:none;	
+	}	
+}
+@media (max-width:420px) {
+    #logo {
+        float:none;
+        text-align:center;
+        padding:25px;
+        padding-left:0px
+    }
+    #logo .imgLogo {
+        width:90%;
+        height:auto
+    }
+    .botonMenu {
+        display:block;
+        right:2%
+    }
+    .cajaFooter {
+        width:46%
+    }
+    .cajafooter2 {
+        width:80%;
+        float:none;
+        display:block;
+        margin:0 auto
+    }
+    .cajafooter2:nth-child(2) {
+        margin-top:15px
+    }
+    .cajaQuienes2 figure {
+        width:10%;
+        float:left;
+        margin-top:50px
+    }
+    .cajaQuienes2 p {
+        width:89%;
+        margin-left:1%;
+        margin-top:20px
+    }
+    .articulosRelacionados figure {
+        width:48%;
+        float:left
+    }
+    #publicaciones {
+        display:none
+    }
+    .redesCompartir {
+        width:90%
+    }
+    .preguntas {
+        width:100%;
+        padding:0;
+        background:#FFF
+    }
+}

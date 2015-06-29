@@ -1,0 +1,89 @@
+.close {
+	z-index: 201;
+  float: right;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1;
+  color: #F00;
+}
+.close:hover,
+.close:focus {
+  color: #C00;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: .5;
+}
+button.close {
+  -webkit-appearance: none;
+  padding: 0;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+}
+#detallebox1, #detallebox3, #detallebox0
+{
+z-index: 200;
+display: none;
+margin: 30px 100px 0 400px;
+width: 500px;
+border: 1px solid black;
+padding: 10px;
+position: fixed;
+background-color: white;
+border-radius: 10px;
+float: left;}
+#detallebox2{
+z-index: 200;
+display: none;
+margin: 30px 100px 0 400px;
+width: 700px;
+border: 1px solid black;
+padding: 10px;
+position: fixed;
+background-color: white;
+border-radius: 10px;
+float: left;}
+#detallebox1 h2, #detallebox2 h2, #detallebox3 h2, #detallebox0 h2 { color:#19798f; font-size:18px; text-align:center; font-weight:800; font-family:'Roboto', sans-serif; font-weight:bold;}
+#tabla-detalle td{ padding:3px;}
+.white-popup-block {
+        background: #FFF;
+        padding: 20px 30px;
+        border-radius:8px;
+        text-align: left;
+        max-width: 550px;
+        margin: 40px auto;
+        position: relative;
+          }
+      b {
+        color: #003484;
+      }
+      .tableForm .boton {
+
+      }
+      .boton {
+        margin-top: 5px;  
+        font-size: 17px;
+        padding: 7px 20px;
+        border-radius: 10px;
+        color: #FFF;
+        background: #579206;
+        border: none;
+        outline: none;
+        cursor: pointer;
+      }
+      .boton:hover{
+        box-shadow:0 0 5px #8ac007;
+      }
+      .texta-larg {
+        resize: none;
+        overflow-y: scroll;
+        border: none;
+        width: 100%;
+        padding-left: 5px;
+        height: 300px;
+      }
+      .tab_obser{
+        background-color: #548FAE;
+        border-radius: 10px;
+        color: #FFF;
+        font-weight: bold;
