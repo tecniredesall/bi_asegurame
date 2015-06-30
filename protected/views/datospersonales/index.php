@@ -8,44 +8,44 @@
 <div class="form">
 <?php echo CHtml::beginForm(); ?>
  
-    <?php echo CHtml::errorSummary($model); ?>
-    
-    <div class="row">
-        Usuario:<input type="text" placeholder="prueba@asegurame123.com">
-    </div>
-    <div class="row">
-        Correo Electronico:<input type="text" placeholder="prueba@asegurame123.com">
-    </div>
-    <div class="row">
-        Nombre:<input type="text" placeholder="Nombre">
-    </div>
-    <div class="row">
-        Aseguradora:
-    </div>
-    <div class="row">
-        Sucursal:
-    </div>
-    
- 
-    <!--<div class="row">
-        <?php //echo CHtml::activeLabel($model,'username'); ?>
-        <?php //echo CHtml::activeTextField($model,'username') ?>
-    </div>
- 
-    <div class="row">
-        <?php //echo CHtml::activeLabel($model,'password'); ?>
-        <?php //echo CHtml::activePasswordField($model,'password') ?>
-    </div>
- 
-    <div class="row rememberMe">
-        <?php //echo CHtml::activeCheckBox($model,'rememberMe'); ?>
-        <?php //echo CHtml::activeLabel($model,'rememberMe'); ?>
-    </div>-->
- 
-    <div class="row submit">
-        <?php echo CHtml::submitButton('Modificar'); ?>
-        <?php echo CHtml::submitButton('Cancelar'); ?>
-    </div>
+   
+    <div class="tableForm" style="padding-top: 100px">
+            <table cellspacing="8" border="0" width="100%">
+            <tbody>
+                    <tr>
+                        <td width="100%"><b>Usuario:</b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="usuario" class="text"></td>
+                    </tr>                                
+                    <tr>
+                        <td width="100%"><b>E-Mail:</b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Correo Electrónico" class="text"></td>
+                    </tr>     
+                    <tr>
+                        <td width="100%"><b>Nombre:</b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Nombre" class="text"></td>
+                    </tr>     
+                    <tr>
+                        <td width="100%"><b>Aseguradora:</b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Aseguradora" class="text"></td>
+                    </tr>     
+                    <tr>
+                        <td width="100%"><b>Sucursal:</b></td>
+                    </tr>
+                    <tr>
+                        <td><input type="text" placeholder="Sucursal" class="text"></td>
+                    </tr>     
+                    
+            </tbody>
+            </table>
+        </div>
  
 <?php echo CHtml::endForm(); ?>
 </div><!-- form -->

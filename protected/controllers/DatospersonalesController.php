@@ -5,8 +5,8 @@ class DatosPersonalesController extends Controller
     
 	public function actionIndex()
 	{
-                $model=new DatosPersonales();
-		$this->render('index',array("data"=>array(),'model'=>$model));
+                //$model=new DatosPersonales();
+		$this->render('index',array("data"=>array()));
 	}
         
         

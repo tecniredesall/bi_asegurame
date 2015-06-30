@@ -47,7 +47,7 @@
 <div class="clear"></div>
 <ul id="datos" style="display: none;">
     <div style="text-align: left; float: left; width: 100%; padding: 0;"> 
-        <li><a href="#">Datos Personales</a></li>
+        <li><?php echo CHtml::link("Datos Personales",array('Datospersonales/index')) ?></li>
     </div>
     <div style="text-align: left; float: left; width: 100%; padding: 0;">
         <li><a href="#">Cambio de Clave</a></li> 
