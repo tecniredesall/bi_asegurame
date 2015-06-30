@@ -50,7 +50,7 @@
         <li><?php echo CHtml::link("Datos Personales",array('Datospersonales/index')) ?></li>
     </div>
     <div style="text-align: left; float: left; width: 100%; padding: 0;">
-        <li><a href="#">Cambio de Clave</a></li> 
+        <?php echo CHtml::link("Cambio Clave",array('Cambioclave/index')) ?> 
     </div>
 </ul>				
 <div class="tituloNav_user"><img src="<?php echo Yii::app()->request->baseUrl; ?>/images/menu_icon_1.jpg" width="34" height="34"> <h1> <a onclick="muestramenu(&#39;misGestiones&#39;)">Reportes <img							src="<?php echo Yii::app()->request->baseUrl; ?>/images/desplegar.png"							style="cursor: pointer; height: 10px; float: right; margin-top: 6px;"></a>					</h1>				</div>				<div class="clear">
